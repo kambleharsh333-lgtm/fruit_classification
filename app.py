@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load model
-model = tf.keras.models.load_model('/content/fruit_classifier.keras')
+model = tf.keras.models.load_model('fruit_classifier.keras')
 
 # Fruit classes
 class_names = ['Apple', 'Avocado', 'Banana', 'Blackberry', 'Papaya']
